@@ -11,7 +11,7 @@ $theme = Cot::$cfg['plugin']['prismhighlight']['theme'] ?? 'okaidia';
 
 $plugin_dir = rtrim(Cot::$cfg['plugins_dir'], '/');
 
-
+Resources::linkFile("{$plugin_dir}/prismhighlight/lib/prism.css", 'css', 20);
 Resources::linkFile("{$plugin_dir}/prismhighlight/lib/{$theme}.css", 'css', 50);
 Resources::linkFileFooter("{$plugin_dir}/prismhighlight/lib/prism.js", 'js', 50);
 
