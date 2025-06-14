@@ -16,7 +16,7 @@ Lock_members=12345A
 [END_COT_EXT]
 
 [BEGIN_COT_EXT_CONFIG]
-theme=01:select:okaidia,tomorrow:okaidia:
+theme=01:select:okaidia,tomorrow,coy,dark,funky,solarizedlight,twilight:okaidia:
 
 
 [END_COT_EXT_CONFIG]
